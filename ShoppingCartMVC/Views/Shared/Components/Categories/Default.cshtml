@@ -1,0 +1,27 @@
+﻿
+@model IEnumerable<Category>
+<div>
+<br/>
+<br/>
+<br/>
+<div class="list-group">
+    <div class="sideBarHomePageBig">
+        <a class ="sideBarHomePage" href="/Products">All Products</a>
+    </div>
+    <br/>
+
+    @foreach (var item in Model)
+    {   
+        <div class="sideBarHomePageBig">
+
+
+            <a class="sideBarHomePage" asp-controller="Products" asp-action="Index" asp-route-categorySlug="@item.Slug">@item.Name</a>
+
+        </div>
+
+
+        <br />
+        
+    }
+</div>
+</div>

@@ -1,0 +1,192 @@
+﻿
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #0F0C1C;
+    font-family: "Abel", sans-serif;
+}
+
+img.productDisplay {
+    max-width: 200px;
+    height: 200px;
+    object-fit:cover;
+}
+
+.productGroupItem {
+background-color: white;
+border-radius: 10px;
+}
+
+.allProducts {
+background-color: white;
+border-radius:10px;
+padding: 15px;
+}
+
+.loginPage {
+    background-color: #0F0C1C;
+    color:white;
+}
+
+h1.productsTitle {
+    color: white;
+}
+
+
+h1.cartTitle {
+    color: white;
+}
+
+.smallCartBox {
+    /*    background-color: #0487e1;*/
+    background-color: #20396a;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px 10px 10px 10px;
+}
+a.sideBarHomePage {
+    color: white;
+    height: 50px;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+
+
+
+    a:hover {
+        text-decoration-line: overline;
+        text-decoration-color: #d3f666;
+        color: white;
+    }
+
+.sideBarHomePage {
+    /*    background-color: #0487e1;
+*/
+    background-color: #20396a;
+    border-radius: 10px 10px 20px 20px;
+    color: white;
+    height: 50px;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    margin: 5px;
+    box-shadow: 2px 2px 2px #d3f666;
+    border: 2px solid #d3f666;
+    font-family: "Abel", sans-serif;
+}
+.sideBarHomePageBig {
+    background-color: #20396a;
+    border-radius: 10px 10px 20px 20px;
+    color: white;
+    height: 50px;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    margin: 5px;
+    box-shadow: 2px 2px 2px #d801a4;
+    border: 2px solid #d801a4;
+    font-family: "Abel", sans-serif;
+}
+
+
+.cartBox {
+background-color: #ffffff;
+}
+
+li {
+    margin:10px;
+}
+
+.btnClearCart {
+    background-color: #0487e1;
+    color: white;
+}
+
+    .btnClearCart:hover {
+        color: white;
+    }
+
+.btnViewCart {
+    /*    background-color: #093d5e;*/
+    background-color: #0487e1;
+    color: white;
+}
+
+.btnViewCart:hover {
+    color: white;
+}
+
+/*.btnPink {*/
+    /*    background-color: #F73884;
+*/
+    /*background-color: #d801a4;
+    color: white;
+}*/
+
+.btnPink {
+    background-color: #20396a;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    height: 50px;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-align: center;
+/*    box-shadow: 1px 1px 1px #d3f666;*/
+/*    border: 1px solid #d3f666;*/
+    font-family: "Abel", sans-serif;
+}
+
+.btnPink:hover {
+    color: white;
+}
+
+.corners {
+    border-radius: 10px;
+    margin: 20px;
+
+    box-shadow: 2px 2px 5px #000000;
+}
+
+img.navBarLogo {
+padding-right:20px;
+height: 15px;
+
+}
+
+
+
+.homePage {
+    background-image: url("https://partnersinfire.com/wp-content/uploads/2021/07/retro-gaming.png");
+    background-size: cover;
+    height: 500px;
+    box-shadow: inset 50px 50px 150px 20px #0F0C1C;
+}
+
+
+
+footer.myFooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.userNameNavBar {
+color: white;
+}
